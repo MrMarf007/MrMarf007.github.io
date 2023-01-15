@@ -140,24 +140,21 @@ button {
     transition: all 0.5s ease 0.10s, height 0s 0s, text-shadow 0.3s linear;
 }
 
-.navItem {
+.navButton {
     color: var(--textCol);
     overflow: show;
     margin: 8% auto;
     font-size: 200%;
     width: 90%;
-    /* max-height: 30%;
-    max-width: 30%; */
-    /* border-bottom: 1px solid var(--highlightCol); */
     transition: 0.2s ease;
 }
 
-.navItem:hover {
+.navButton:hover {
     color:rgb(31, 31, 39);
     cursor: pointer;
 }
 
-.navItem.active {
+.navButton.active {
     color:rgb(31, 31, 39)
 }
 
